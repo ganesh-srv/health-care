@@ -1,0 +1,105 @@
+.main {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+    /* border: 2px solid black; */
+    background-color: white;
+    border-radius: 50px;
+}
+
+.header {
+    width: 100%;
+    height: 8%;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 0px 20px 32px;
+    flex: 0 1 25%;
+}
+
+.tab-icons>ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 34px;
+}
+
+.tab-icons>ul>li {
+    font-weight: bold;
+    cursor: pointer;
+    align-items: center;
+}
+
+.tab-icons>ul>li .icon {
+    margin-right: 8px;
+    /* Space between icon and text */
+    width: 16px;
+    /* Adjust icon size */
+    height: 16px;
+    /* Adjust icon size */
+}
+
+.tab-icons {
+    flex: 1 1 auto;
+    /* Allow the tab-icons div to grow and take up available space */
+}
+
+.profile-icon {
+    flex: 0 1 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container img {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.profile-names {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.profile-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-title {
+    color: #888;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 40px;
+    background-color: #EDEDED;
+    margin: 0 12px;
+}
+
+.profile-container .icon {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+}
+
+.profile-container .icon {
+    margin-right: 10px;
+}
+
+.profile-container .icons {
+    margin-right: 35px;
+    cursor: pointer;
+}

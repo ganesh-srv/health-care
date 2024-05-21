@@ -1,13 +1,105 @@
+.patient-card-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure it takes the full height of its parent */
+  }
+
+
+
+
 .patient-card-main .heading {
     margin-left: 19px;
     display: flex;
-    width: 88%;
     justify-content: space-between;
 
 }
 
-.icon {
+
+
+.patient-card-main .heading h2 {
+    margin: 20px 20px 20px 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.patient-card-main .heading .icon {
+    margin: 24px 20px 20px 20px;
     width: 24px;
-    height: 66px;
+    height: 24px;
+    fill: #333;
+    cursor: pointer;
+}
+
+
+
+.patient-listing {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 24px;
+    flex: 1 1 auto; /* Allow it to grow and take available space */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .patient-listing::-webkit-scrollbar {
+    width: 10px; 
+    border-radius: 10px;
+    background-color: #E3E4E6 ;
+  }
+
+  /* Handle hover and active states */
+.patient-listing::-webkit-scrollbar-thumb:hover {
+     /* Color of the scrollbar thumb on hover */
+     background-color: #072635 ;
+     cursor: pointer;
+  }
+
+  /* Style the scrollbar thumb */
+.patient-listing::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* Black color for the thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+ 
+  }
+
+.patient-profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px 10px 20px;
+    cursor: pointer;
+}
+
+
+.patient-profile img {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+
+.profile-details {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.profile-names {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px; /* Add some space between names and ellipsis */
+}
+
+.profile-name {
+    font-weight: bold;
+    color: #333;
+}
+.profile-title {
+    color: #888;
+}
+
+.icon.more-icon {
+    width: 20px;
+    height: 20px;
     fill: #333;
 }

@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div className='container'>
         <div className='patients-listing '>
-
+        <PatientsCard/>
         </div>
         <div className='diagnosis'>
 

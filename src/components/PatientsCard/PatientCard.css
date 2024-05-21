@@ -1,0 +1,13 @@
+.patient-card-main .heading {
+    margin-left: 19px;
+    display: flex;
+    width: 88%;
+    justify-content: space-between;
+
+}
+
+.icon {
+    width: 24px;
+    height: 66px;
+    fill: #333;
+}

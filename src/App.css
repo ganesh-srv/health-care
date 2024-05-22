@@ -28,12 +28,27 @@
 
 }
 
-.diagnosis {
+.middle-container {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   margin: 40px 40px 20px 0px;
+  /* background-color: white; */
+
+  flex: 0 1 60%
+}
+
+.diagnosis {
   background-color: white;
   border-radius: 50px;
-  flex: 0 1 60%
+  margin-bottom: 20px;
+  height: 60%;
+}
+
+.diagnostic-list {
+  background-color: white;
+  border-radius: 50px;
+  height: 40%;
 }
 
 .profile-card {
@@ -41,7 +56,7 @@
   margin: 40px 20px 20px 0px;
   background-color: white;
   border-radius: 50px;
-  flex : 0 1 20%;
+  flex: 0 1 20%;
 }
 
 

@@ -1,0 +1,17 @@
+.diagnosis-card-main {
+    margin: 30px;
+    height:100%;
+}
+
+.diagnosis-card-main .h2 {
+    font-size: 24px;
+    font-weight: 800;
+}
+.diagnosis-card-main .metrics {
+    display: flex;
+    flex-direction: column;
+}
+
+.blood-pressure-metric {
+    display: flex;
+}
